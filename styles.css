@@ -84,3 +84,32 @@ a {
     align-items: center;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.images li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    color: gray;
+    width: min-content;
+    text-align: center;
+}
+
+.images img {
+    height: 100px;
+    width: 100px;
+    border: 2px #3882F6 solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
