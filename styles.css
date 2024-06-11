@@ -1,0 +1,86 @@
+
+body {
+    font-family:arial,'Times New Roman', Times, serif;
+}
+
+/* Section 1*/
+
+.hero {
+    background-color: #1F2937;
+}
+
+h1,h2,button {
+    color: #F9FAF8;
+}
+
+/* Header logo */
+h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+/* Hero main text */
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+/* Header links and Hero secondary text */
+.hero-p,a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Removes dot from lists*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* header links */
+.hero ul {
+    display: flex;
+    gap: 30px;
+}
+
+/* Removes underlines of links */
+a {
+    text-decoration: none;
+}
+
+.sec1-b {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 30px;
+}
+
+.signup button {
+    background-color: #3882F6;
+    padding: 8px 25px;
+    font-weight: 600; 
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+}
+
+
+/* Section 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
