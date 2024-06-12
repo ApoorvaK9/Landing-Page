@@ -113,3 +113,27 @@ h3 {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+/* Section 3 */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 10;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote p {
+    text-align:center;
+    padding-right: 100px;
+}
