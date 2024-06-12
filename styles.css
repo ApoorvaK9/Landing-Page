@@ -1,9 +1,10 @@
 
 body {
     font-family:arial,'Times New Roman', Times, serif;
+    margin: 0;
 }
 
-/* Section 1*/
+/* Section 1 - Header logo,links,hero text and image*/
 
 .hero {
     background-color: #1F2937;
@@ -71,11 +72,11 @@ a {
     font-size: 18px;
     border-radius: 10px;
     border: none;
-    align-items: center;
+    height: fit-content;
 }
 
 
-/* Section 2 */
+/* Section 2 - Random information*/
 
 .section2 {
     display: flex;
@@ -114,7 +115,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-/* Section 3 */
+/* Section 3 -Quote */
 
 .section3 {
     display: flex;
@@ -136,4 +137,38 @@ h3 {
 .quote p {
     text-align:center;
     padding-right: 100px;
+}
+
+
+/* Section 4 - Call to action-signup */
+
+.section4 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 80px 550px;
+    padding: 30px 0px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section4 p {
+    margin: 0;
+}
+
+.section4 strong {
+    font-size: 25px ;
+    color: white;
+}
+
+.section4 button  {
+    background-color: #3882F6;
+    padding: 8px 25px;
+    font-weight: 600; 
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px white solid;
+    height: fit-content;
 }
