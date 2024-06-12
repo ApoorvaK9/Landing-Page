@@ -12,14 +12,14 @@ body {
     background-color: #1F2937;
 }
 
-h1,h2,button {
+h1,button {
     color: #F9FAF8;
 }
 
 /* Header logo */
-h2 {
-    font-size: 24px;
-    margin: 15px 0;
+h2 img {
+    height: auto;
+    max-width: 100%;
 }
 
 /* Hero main text */
