@@ -59,6 +59,7 @@ a {
     text-decoration: none;
 }
 
+/* Sec1-b - Signup and hero text and image */
 .sec1-b {
     display: flex;
     justify-content: space-around;
@@ -75,6 +76,11 @@ a {
     border-radius: 10px;
     border: none;
     height: fit-content;
+}
+
+.sec1-b img {
+    width: 600px;
+    height: auto;
 }
 
 
