@@ -85,34 +85,36 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 h3 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 40px 0;
 }
 
 .images{
     display: flex;
     margin-bottom: 50px;
-    gap: 40px;
+    gap: 60px;
 }
 
 .images li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 11px;
+    font-size: 15px;
     color: gray;
     width: min-content;
     text-align: center;
 }
 
 .images img {
-    height: 100px;
-    width: 100px;
-    border: 2px #3882F6 solid;
+    height: 180px;
+    width: 180px;
+    border: 3px #3882F6 solid;
     border-radius: 10px;
     margin-bottom: 10px;
 }
